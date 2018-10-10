@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE source SYSTEM "file://ad.ucl.ac.uk/homed/uczctsd/DesktopSettings/Desktop/XML%20East%20India%20Company/DTD/EastIndiaCompany.dtd">
+<!DOCTYPE source SYSTEM "../EastIndiaCompany.dtd">
 <source>
     <text index="SIND" pages="678">
         <sourceDesc><doctype ID="3" system="indian">Purwana</doctype> granted by <person><name ID="1">GHOOLAM SHAH ABBASEE</name>, <role><rank>Prince</rank> of <place>Sind</place></role></person>, in favor of the <politicalEntity>Hon’ble English East India Company</politicalEntity>, dated the <date calendar="islamic"><day>18</day>th <month altspell1="muharram">Mohurrum</month></date>, or <date calendar="gregorian"><day>22</day>nd <month>September</month> <year>1758</year>, <era>A. D.</era></date></sourceDesc>
