@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE source SYSTEM "EastIndiaCompany.dtd">
+
+<?xml-stylesheet type="text/xsl" href="individualdisplay.xsl"?>
+
+<!-- Loosely modelled after the TEI header -->
+
+<source>
+    
+    <header>
+        <headTitle>Treaties, agreements and engagements, between the Honorable East India Company
+            and the Native Princes, Chiefs, and States, in Western India; The Red Sea; The Persian Gulf; &amp;c.
+            also between Her Britannic Majesty's Government, and Persia, Portugal, and Turkey:
+            a machine-readable transcription.
+        </headTitle>
+        <respStmt>
+            <principal>Thomas Sean Dominic Kelly</principal>
+            <resp>data entry, schema creator, conversion to XML-conformant markup</resp>
+            <respDate>2018</respDate>
+        </respStmt>
+        <sourceDesc>
+            <biblStruct>
+                <monogr>
+                    <compiler>R. Hughes Thomas</compiler>
+                    <position>Uncovenanted Assistant to the Chief Secretary</position>
+                    <sourceTitle>Treaties, agreements and engagements, between the Honorable East India Company
+                        and the Native Princes, Chiefs, and States, in Western India; The Red Sea; The Persian Gulf; &amp;c.
+                        also between Her Britannic Majesty's Government, and Persia, Portugal, and Turkey.</sourceTitle>
+                    <imprint>
+                        <pubPlace>Bombay, India</pubPlace>
+                        <publisher>Bombay Education Society's Press</publisher>
+                        <pubDate>1851</pubDate>
+                    </imprint>
+                    <notes>With Notes and Memoranda by the Compiler</notes>
+                </monogr>
+            </biblStruct>
+        </sourceDesc>
+    </header>
+
+    <index location="ahmednuggur">
+        <doc docID="TAEAHM1" doctypeID="TAEDTY3" pg="1-2">
+            <cd> TRANSLATION of a Paper addressed to <person personID="outram"><rank>CAPTAIN</rank>
+                    <name>OUTRAM</name>, <role>Acting Political Agent</role></person>, <place
+                    transliteration="true">Mahee Kanta</place>, by <person personID="kum">
+                    <rank transliteration="true" altspell="Maharaja">MAHARAJ</rank>
+                    <name transliteration="true">PRITHEE SINGJEE KURUMSINGJEE</name>
+                </person>. <!--         This date is only for reference to allow sorting during the XSLT transformation. Most documents do have a date in the cd but this is one is an anomaly, this means there is a repetition of data        -->
+                <date isovalue="18360218" ref="true" calendar="gregorian"><day>18</day>th
+                        <month>February</month>
+                    <year>1836</year></date>
+            </cd>
+            <maintext>
+                <contract>
+                    <intro>In your letter to me dated <date isovalue="18360218" calendar="gregorian"
+                                ><day>18</day>th <month>February</month>
+                            <year>1836</year></date>, you informed me that it was the intention of
+                        the <politicalEntity>British Government</politicalEntity> to restore my
+                        Throne and Kingdom to me if I would subscribe to certain Conditions therein
+                        enumerated : to these conditions I agree, as follows :-</intro>
+                    <article number="1"> 1. I will abide by the same Agreement that was entered into
+                        in <date isovalue="1812" calendar="gregorian">
+                            <year>1812</year>
+                        </date>* with the <politicalEntity>British Government</politicalEntity>. </article>
+                    <article number="2"> 2. From this time forward neither I, nor my children, nor
+                        my posterity, will perform the ceremony of <practice transliteration="true"
+                            altspell="sati">Suttee</practice>. </article>
+                    <article number="3"> 3. I will appoint a respectable and active Minister to
+                        manage the business of my State, subject to the approval of the
+                            <politicalEntity>British Government</politicalEntity>. </article>
+                    <article number="4"> 4. I will pay my <object transliteration="true"
+                            altspell="gandasa">Ghansdana</object>, and any balance that may be due
+                        to <person personID="gaek"><rank>His Highness</rank> the <unknown
+                                transliteration="true" altspell="Gaekwad, Gaikwad, Guicowar"
+                            >Gaekwar</unknown></person> through my <unknown transliteration="true"
+                            >Nishadar</unknown>, <unknown transliteration="true">Oomedsing
+                            </unknown><place transliteration="true" type="village">Barot</place>, of
+                            <unknown transliteration="true">Puntun</unknown>, and in future I will
+                        continue my <unknown transliteration="true">Nisha</unknown> as heretofore. </article>
+                    <article number="5"> 5. The expenses of individuals confined at <place
+                            transliteration="true" type="village">Sadra</place> on account of the
+                            <practice transliteration="true" altspell="sati">Suttee</practice> shall
+                        be defrayed by me. </article>
+                    <article number="6"> 6. I will retain no Arabs, <unknown transliteration="true"
+                            >Muranee</unknown>s, <unknown transliteration="true"
+                        >Purdesee</unknown>s, or others, whether horse or foot, except those that
+                        are old servants of my house. </article>
+                    <article number="7"> 7. If there should be any quarrel between any of my
+                            <unknown transliteration="true">Thakoor</unknown>s and any village, I
+                        will make known the same to the <politicalEntity>Political
+                        Agent</politicalEntity>, and as he shall advise so will I do. </article>
+                    <article number="8"> 8.I will not attack the <unknown transliteration="true"
+                            >Thakoor</unknown> of any village without the permission of the
+                            <politicalEntity>Political Agent</politicalEntity>. </article>
+                    <article number="9"> 9. My <person personID="sooba"><role>Minister</role>, <name
+                                transliteration="true">Mahadjee Soobahoot</name></person>, is guilty
+                        in the affair of the <practice transliteration="true" altspell="sati"
+                        >Suttee</practice>; I will not give him shelter within my Territory. </article>
+                    <confirmation> I will act according to what I have written above.
+                    </confirmation>
+                </contract>
+            </maintext>
+            <datePlace>
+                <date isovalue="18360218" calendar="gregorian"><day>18</day>th <month>February</month>
+                    <year>1836</year></date>
+                <place transliteration="true" type="ambig">Ahmednuggar</place>
+            </datePlace>
+            <signatories> In <person personID="singjee">
+                    <rank transliteration="true" altspell="maharaja">Maharaj</rank>
+                    <name transliteration="true">Prithee Singjee</name>
+                </person>’s handwriting. What is written above is correct,(Signed) <person
+                    personID="singgjee">
+                    <name sig="true" transliteration="true">TUKHUTSINGJEE</name>
+                </person> (True Translation)(Signed) <person personID="outram">
+                    <name sig="true">J. OUTRAM</name>
+                    <role>Acting Political Agent</role>
+                </person>
+            </signatories>
+            <note>* Meaning the General Engagement with the Chiefs of the <place
+                    transliteration="true" type="ambig">Mahee Kanta</place>, called the “Security
+                Bond of XVI. Articles,” entered at pages 304 and 309 of this Compilation.</note>
+            <image src="TAEAHM1.png"/>
+        </doc>
+    </index>
+
+    <index location="sind">
+        <doc docID="TAESIN1" doctypeID="TAEDTY5" pg="678">
+            <cd>
+                <unknown transliteration="true">Purwana</unknown> granted by <person
+                    personID="seesaw"><name transliteration="true">GHOOLAM SHAH ABBASEE</name>,
+                            <role><rank>Prince</rank> of <place transliteration="true"
+                    >Sind</place></role></person>, in favor of the <politicalEntity>Hon’ble English
+                    East India Company</politicalEntity>, dated the <date calendar="islamic"
+                    ><day>18</day>th <month altspell="Muharram" transliteration="true"
+                    >Mohurrum</month></date>, or <date calendar="gregorian" isovalue="17580922"
+                        ><day>22</day>nd <month>September</month>
+                    <year>1758</year>, <era>A. D.</era></date></cd>
+            <maintext>
+                <prose>
+                    <p>BE IT KNOWN TO ALL COMMANDERS, OFFICERS, FARMERS, AND INHABITANTS OF <place
+                            transliteration="true">DHURAT</place>* <place transliteration="true"
+                            >LAREE BUNDER</place>, <place transliteration="true"
+                        >AURUNGABUNDER</place>, <place transliteration="true">CAVANDREE</place>,
+                            <place transliteration="true">DARAJAH</place>, <place
+                            transliteration="true">CHAVOTRA MASSOOLLIE</place>, <place
+                            transliteration="true">NAKASS</place>, <place transliteration="true"
+                            >BARBANDIE GOOL ABAJAR</place>, <place transliteration="true"
+                        >GOOJAR</place>, <place transliteration="true">RAJAGUNT</place>, <place
+                            transliteration="true">JOHILDAR</place>, <place transliteration="true"
+                            >SARKAR CHACHAGON</place>, <place transliteration="true"
+                        >CHARCARHALAN</place>, <place transliteration="true">SARKAR
+                        NAS-SARPOOR</place>, <place transliteration="true">HALLARCANDY</place>,
+                            <place transliteration="true">SARKAR SUISTAM</place>, <place
+                            transliteration="true">COODABAGE</place>, <place transliteration="true"
+                            >SARKARLORAH</place>, &amp; c. PLACES BELONGING T0 <unknown
+                            transliteration="true">SARKAR</unknown>, That <person personID="sup"
+                                ><title>Mr.</title>
+                            <name>Sumption</name>, <unknown transliteration="true"
+                            >Goomashtah</unknown> or <role>Agent</role></person>, did, for and in
+                        behalf of the Governor, belonging to the <politicalEntity>Hon'ble English
+                            Company of <place transliteration="true" type="city"
+                        >Bombay</place></politicalEntity>, inform here, that on all the goods he
+                        purchases and sells for the <politicalEntity>Honorable
+                        Company</politicalEntity>, he pays no more than 1½ per cent. Customs on the
+                        market price, which I hereby conﬁrm and order, that no more than that Custom
+                        may be received of him as usual ; but on all Europe goods which shall be
+                        sent from <place transliteration="true" type="city">Bombay</place> here, and
+                        hence to <place transliteration="true">Coodabage</place>, <place
+                            transliteration="true">Lorey</place>, <place transliteration="true"
+                            >Mooltan</place>, &amp;c., or any brought from thence, they are to
+                        pay on the same half of what Customs, &amp;c. charges (such as
+                        passports, convoy, lodgings, <unknown transliteration="true">Duar Touff Cana
+                            Chowkey</unknown>, &amp;c.) the <unknown transliteration="true"
+                            >Mooltanee</unknown> merchants pay ; and should there be such goods as
+                        the <unknown transliteration="true">Mooltanee</unknown>s never carry, and it
+                        be impossible to know the charges and Customs on them, they (the English)
+                        are to pay half of what any of the considerable merchants pay on the same,
+                        but nobody is to demand anything more, and the same Customs, &amp;c. as
+                        are above mentioned, they are to pay on <unknown transliteration="true"
+                        >Hing</unknown>, Indigo, &amp;c. goods which they never bought before,
+                        and they are also to pay 1½ per cent. Custom on the saltpetre, be it bought
+                        by themselves, or by any body for them, in <unknown transliteration="true"
+                            >Sirkar</unknown>'s place, or anywhere else ; but no Ofﬁcers, farmers,
+                        &amp;c. are to demand any thing more from them, but let them carry on
+                        their trade unmolested ; and the above-mentioned goods nobody else shall
+                        have liberty to buy; and I further order, that should their goods not be
+                        disposed of, and they want to carry them back, no Custom shall he demanded
+                        on them, nor on any provisions (such as cattle, goats, &amp;c.
+                        provi-sions) which they may provide at <unknown transliteration="true"
+                        >Tatta</unknown> and other places, to send on board their ships for their
+                        maintenance. They are also not to demand any thing for their gardens, nor in
+                        any shape molest their Gardeners’ boats, vessels, &amp;c., conveyances,
+                        or send them on any <unknown transliteration="true">Sirkar</unknown>’s
+                        business, and it is also ordered that their chests of linen may not be
+                        opened, or the least hindrance shown them, in passing and repassing, it
+                        being contrary to our rules; and in short no one must presume to make any
+                        new Custom to their prejudice, by any former Rules or rates, or in any shape
+                        put any affront on them and their people; they have also free liberty to
+                        provide any sort of grain, and sell the same, and any Europe goods, at any
+                        rate they please. The Customs on the <unknown transliteration="true"
+                        >Dupper</unknown>s of Ghee, Oil, &amp;c., as also on the chests and pots
+                        of goods, are to be charged conforma-ble to the weight they put on each
+                            <unknown transliteration="true">Dupper</unknown>, chest, or pot, without
+                        weighing them again. The Customs on elephants’ teeth are to be received on
+                        the amount of sale, when sold, at the same rate as was usual in the time of
+                        the <person personID="moo">
+                            <rank>Prince</rank>
+                            <name transliteration="true">Mahomed Moorad</name>
+                        </person>, and should the (English) Governor either buy, or build a house
+                        for a factory, at <place transliteration="true">Aurungabunder</place>, or at
+                            <place transliteration="true">Tatta</place>, my said people are to give
+                        all assistance, that it may cost but a reasonable price; and he is to have
+                        all encouragement for carrying on his trade, as it will be an advantage to
+                        the Government, but no other nations that wear hats shall have permission
+                        for it ; and as it is very necessary that I should encourage and please the
+                        English, I hereby order, that an entire compliance may be shewn to this,
+                        with-out demanding any new order every year.</p>
+                </prose>
+            </maintext>
+            <datePlace>
+                <date calendar="gregorian" isovalue="17580922">Dated <day>22</day>nd
+                        <month>September</month>
+                    <year>1758</year>.</date>
+            </datePlace>
+            <note>* NOTE-In the spelling of these words the form has been adopted which is used in
+                the Manuscript copy of this <unknown transliteration="true">Purwana</unknown>
+                recorded amongst the records of the <place transliteration="true">Bombay</place>
+                Government for the years 1758-59.</note>
+            <image src="TAESIN1.png"/>
+        </doc>
+    </index>
+
+    <index location="soonth">
+        <doc docID="TAESOO2" doctypeID="TAEDTY2" pg="761">
+            <cd> Translation of a Note addressed by <person personID="bhi">
+                    <rank transliteration="true">RANA</rank>
+                    <name transliteration="true">BHIWANNE SINGJEE</name>
+                </person>, of <place transliteration="true" type="village">Soonth</place>, to
+                    <person personID="rem"><name>A. REMINGTON</name>, <rank>Esquire</rank>,
+                        <role>Officiating 1st Assistant Political Commissioner</role></person> for
+                    <place transliteration="true" type="state" altspell="Gujarat">Guzerat</place>,
+                dated <date isovalue="18400512" calendar="gregorian"><day>12</day>th <month>May</month>
+                    <year>1840</year></date>. </cd>
+            <maintext>
+                <contract>
+                    <article number="1"> Having taken into consideration the subject brought to my
+                        notice regarding the abolition of <practice transliteration="true"
+                            altspell="sati">Suttee</practice>, I will make arrangements in my
+                        territory to prohibit the future observance of <practice
+                            transliteration="true" altspell="sati">Suttee</practice>. </article>
+                </contract>
+            </maintext>
+            <signatories>
+                <person personID="rasoo">Seal of the <title seal="true" transliteration="true"
+                    >Rana</title> of <place transliteration="true">Soonth</place></person>(True
+                Translation)(Signed) <person personID="rem"><name sig="true">A.
+                        REMINGTON</name>,<role>Officiating 1st Assistant Political
+                    Commissioner</role></person>. </signatories>
+            <image src="TAESOO2.png"/>
+        </doc>
+    </index>
+
+    <index location="surat">
+        <doc docID="TAEDSUR1" doctypeID="TAEDTY1" pg="783">
+            <cd>
+                <document transliteration="true">Firman</document> granted by <person
+                    personID="aurung">
+                    <title transliteration="true">SHAH</title>
+                    <name transliteration="true">AURUNGZEB</name>
+                </person> to the <politicalEntity>Hon’ble East India Company</politicalEntity>,
+                dated the <date calendar="gregorian" isovalue="16670625"><day>25</day>th <month>June</month>
+                    <year>1667</year></date>. </cd>
+            <maintext>
+                <prose>
+                    <p>Be it known to the Governor, Prefects, and Officers of Affairs of the Port of
+                            <place transliteration="true">Surat</place>, present and to come,
+                        conﬁding in our Royal favor, that at this present time, joined to happiness,
+                        certain notice is come to our ears, that whereas formerly the rate for
+                        Customs of goods belonging to the merchants of the <politicalEntity>Dutch
+                            nation</politicalEntity> was on every hundred Rupees three and a half
+                        Rupees, and afterwards, having an eye to the proﬁtable condition of the said
+                        people, two Rupees was only ordered; and whereas the merchants of the
+                            <politicalEntity>English nation</politicalEntity> have made their
+                        request that the rates for the Customs of their goods may be confirmed
+                        according to the Dutch constitution, and that a <document
+                            transliteration="true">Firman</document> may pass from our excellent and
+                        noble Court that the goods and merchandizes which the said merchants, having
+                        bought in <place transliteration="true">Bengal</place>, and in the Royal
+                        seat of our kingdom, <politicalEntity transliteration="true"
+                        >Akburabad</politicalEntity>, and other countries and great cities, do
+                        transport by the way of <place transliteration="true">Burhanpoor</place> and
+                            <place transliteration="true">Ahmedabad</place>, to sell them in the
+                            <unknown transliteration="true">Bundur</unknown> of <place
+                            transliteration="true">Surat</place>, may not be stopped by any person
+                        in their passage, on pretence of taking <unknown transliteration="true"
+                            >Rahadaree</unknown>s or other Duties, or on any prohibition whatsoever;
+                        and in case any of the goods belonging to the aforesaid persons be robbed in
+                        the way, that the Officers and Guards of the said place do, in the recovery
+                        of the said goods, make all diligent search; and whereas a petition was
+                        directed to our exalted Throne, upon the sight of a letter which <person
+                            personID="Ghays"><name transliteration="true"
+                            >Ghyas-ood-deen-Khan</name>, <role>Governor of <place
+                                    transliteration="true">Surat</place></role></person>, hath
+                        written unto the trusty protector of our riches, the repose and glory of our
+                        kingdom, the pillar of our Councillors, emblems of honor, the flower of our
+                        Princes, high in dignity, the provident disposer of our kingdoms and
+                        estates, the open way to riches and plenty, worthy of all grace, a rewarder
+                        of all degrees of men, a Lord of pity, the mark of felicity, Chancellor of
+                        our kingdoms, and sole manager of our affairs, <person personID="jaffercake">
+                            <name transliteration="true">Jafer Khan</name>
+                        </person>, to this effect, that in case any favor be shown to the
+                            <politicalEntity>English nation</politicalEntity>, (who are well-wishers
+                        to the riches of our Court, by their services which they have performed to
+                        our beneﬁt have so approved themselves formerly and hitherto in an obliging
+                        manner,) it will be well deserved by them; and whereas the instant desire of
+                        our mind, known in truth, and the perfection of our heart, established in
+                        justice, is expended on the quiet state and universal beneﬁt of all people,
+                        at the agreeable petition of the merchants of the <politicalEntity>English
+                            nation</politicalEntity>, having forgiven them one Rupee of the sum of
+                        three Rupees, (the accustomary duties of their goods,) I have now ordered
+                        them to pay but two Rupees; therefore, from this time forward on every
+                        hundred Rupees Value of goods belonging to the <politicalEntity>English
+                            nation</politicalEntity>, two Rupees must be taken in the aforesaid
+                            <unknown transliteration="true">Bundur</unknown>; and the Governors,
+                        Captains, Lieutenants of countries, Guards of passes and the highways of the
+                        provinces and great cities aforesaid, shall not give any molestation or
+                        opposition to the aforesaid merchants on pretence of <unknown
+                            transliteration="true">Rahadaree</unknown>s or other demands whatsoever,
+                        which are prohibited in our Court and high Palace; and in case in any place
+                        the least part of their goods or merchandize be stolen, that in the recovery
+                        of them all strict search and inquiry be made, and the thieves, together
+                        with the goods stolen, being apprehended, the goods may be delivered to the
+                        owners, and the thieves to punishment. In this affair let them observe all
+                        extraordinary diligence towards our Court, and be very circumspect and
+                        cau-tious to abstain from the breach hereof.</p>
+                </prose>
+            </maintext>
+            <datePlace> Written the <date calendar="islamic"><day>11</day>th day of <month
+                        transliteration="true" altspell="Muharram">Mohurrum</month>, in the tenth
+                    year of Our High Reign</date>, (corresponding with the <date
+                    calendar="gregorian" isovalue="16670625"><day>25</day>th <month>June</month>
+                    <year>1667</year>, <era>A. D.</era></date>) </datePlace>
+            <image src="TAESUR1.png"/>
+        </doc>
+    </index>
+    <index location="surat">
+        <doc docID="TAESUR21" doctypeID="TAEDTY4" pg="801">
+            <cd> PROCLAMATION, BY THE <person personID="dunc"><rank>HON’BLE</rank>
+                    <name>JONATHAN DUNCAN</name>, <role>GOVERNOR OF BOMBAY</role></person>. DATED
+                    <place transliteration="true" type="city">SURAT</place>, THE <date
+                    isovalue="18000515" calendar="gregorian"><day>15</day>TH <month>MAY</month>
+                    <year>1800</year></date>
+            </cd>
+            <maintext>
+                <prose>
+                    <p>Whereas by a Treaty concluded between the <politicalEntity>Hon’ble English
+                            Company</politicalEntity> and the <person personID="Nusser">
+                            <rank transliteration="true" altspell="nawab">Nuwab</rank>
+                            <rank transliteration="true">Meer</rank>
+                            <name transliteration="true">Nuseer-ood-Deen Khan</name>
+                        </person>, under the date the <date isovalue="18000513" calendar="gregorian"
+                                ><day>13</day>th <month>May</month>
+                            <year>1800</year></date>, or the <date calendar="islamic"
+                            ><day>19</day>th of <month transliteration="true">Zilhuj</month>
+                            <year>1214</year> of the <era transliteration="true"
+                        >Hijree</era></date>, the said <rank transliteration="true" altspell="Nawab"
+                            >Nuwab</rank> has agreed that the management and collection of the
+                        Revenues of the City of <place transliteration="true" type="city"
+                        >Surat</place>, and of the Territories, Places, and other Dependencies
+                        thereof, the administration of civil and criminal justice, and generally the
+                        entire government of the said City and its Dependencies, hall be vested
+                        forever, wholly and exclusively in the <politicalEntity>Hon’ble English
+                            Company</politicalEntity>;</p>
+                    <p>This is therefore to give notice to all the inhabitants of the Town of <place
+                            transliteration="true" type="city">Surat</place> and its Dependencies,
+                        that the <politicalEntity>Hon’ble Company</politicalEntity>’s exclusive
+                        Government commences from this day, being <date isovalue="18000515"
+                            calendar="gregorian"><weekday>Thursday</weekday>, the <day>15</day>th of
+                                <month>May</month>
+                            <year>1800</year></date>. Or the <date calendar="islamic"
+                            ><day>21</day>st of <month transliteration="true">Zilhuj</month>
+                            <year>1214</year> of the <era transliteration="true"
+                        >Hijree</era></date>. All persons now in civil offices are to continue to
+                        act under the administration of the <politicalEntity>Hon’ble
+                        Company</politicalEntity> until further orders, and under their future
+                        permanency will, of course, in a great measure, depend, under the good
+                        pleasure of Government, upon their diligence in their several trusts, and
+                        their fidelity to the English <politicalEntity transliteration="true"
+                        >Sirkar</politicalEntity>.</p>
+                    <p><person personID="gall"><name>Edward Galley</name>, <rank>Esquire</rank>, has
+                            been appointed <role>Collector</role> of the <unknown
+                                transliteration="true">Mokat</unknown>s and <unknown
+                                transliteration="true">Mogalee</unknown> of the <politicalEntity
+                                transliteration="true">Purgunas</politicalEntity></person>, and
+                            <person personID="alex"><name>Alexander Ramsay</name>,
+                            <rank>Esquire</rank>, <role>Judge</role> and <role>Magistrate</role> of
+                            the city</person>. The Natives in trust in these Departments are
+                        therefore respectively to continue to act in subordination to those superior
+                            <rank>Officers</rank>, and such appointments or regulations as may take
+                        place will be announced in a few days, it being sufficient for the present
+                        to intimate to all the Company’s New Subjects of <place
+                            transliteration="true" type="city">Surat</place>, that the motives and
+                        object of the <politicalEntity>British Government</politicalEntity> in
+                        taking on themselves the full and entire government of <place
+                            transliteration="true" type="city">Surat</place>, have been, and are, to
+                        procure thereby a just, wise, and efficient administration for the security
+                        of the lives and properties, and the promotion of the happiness of all its
+                        inhabitants, of which, with God’s blessing, the good effects may soon be
+                        rendered manifest. </p>
+                </prose>
+            </maintext>
+            <datePlace>
+                <date isovalue="18000515" calendar="gregorian"><day>15</day>th <month>May</month>
+                    <year>1800</year>.</date>
+                <place transliteration="true" type="castle">Surat Castle</place>
+            </datePlace>
+            <image src="TAESUR21.png"/>
+        </doc>
+    </index>
+
+    <index location="wankaneer">
+        <doc docID="TAEWAN1" doctypeID="TAEDTY2" pg="891">
+            <cd> Translation of a Note addressed by <person personID="sing">
+                    <unknown transliteration="true">THAKOOR</unknown>
+                    <name transliteration="true">SIRDAR SING</name>
+                </person>, of <place transliteration="true" type="city" altspell="Wankaner"
+                    >Wankaneer</place>, to <person personID="rem"><name>A. REMINGTON</name>,
+                        <rank>Esq.</rank>, <role>Officiating 1st Assistant Political Commissioner
+                        for <place transliteration="true" type="state" altspell="Gujarat"
+                        >Guzerat</place></role></person>, dated <date calendar="hindu"><month
+                        transliteration="true" altspell="vaisakh">Vysack</month>
+                    <unknown transliteration="true">Shood</unknown>
+                    <day>7</day>th <calendar transliteration="true" altspell="samvat">Sumvut</calendar>
+                    <year>1896</year></date>, or the <date isovalue="1840058" calendar="gregorian"
+                        ><day>8</day>th <month>May</month>
+                    <year>1840</year></date>. </cd>
+            <maintext>
+                <contract>
+                    <article number="1"> Having taken into consideration the subject brought into my
+                        notice, regarding the abolition of <practice transliteration="true"
+                            altspell="sati">Suttee</practice>, I will prohibit the practice in my
+                        Districts, and make suitable arrangements for its discontinuance. </article>
+                </contract>
+            </maintext>
+            <signatories> (Signed) <person personID="sing">
+                    <name sig="true" transliteration="true">SIRDAR SING</name>
+                </person>.(True Translation)(Signed) <person personID="rem">
+                    <name sig="true">A. REMINGTON</name>
+                    <role>Officiating 1st Assistant Political Commissioner</role>
+                </person>. </signatories>
+            <image src="TAEWAN1.png"/>
+        </doc>
+    </index>
+
+</source>

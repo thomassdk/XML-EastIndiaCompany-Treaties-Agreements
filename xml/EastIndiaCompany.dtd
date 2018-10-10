@@ -1,0 +1,108 @@
+<!-- document.dtd DTD for TREATIES, AGREEMENTS, AND ENGAGEMENTS, BETWEEN THE HONORABLE EAST INDIA COMPANY -->
+
+<!-- The root element  'source' was chosen because the book contains many widely varying types of documents  -->
+
+<!ELEMENT source (header, index+)>
+    <!ELEMENT header (headTitle, respStmt, sourceDesc)>
+        <!ELEMENT headTitle (#PCDATA) >
+        <!ELEMENT respStmt (principal, resp, respDate)>
+            <!ELEMENT principal (#PCDATA) >
+            <!ELEMENT resp (#PCDATA) >
+            <!ELEMENT respDate (#PCDATA) >
+        <!ELEMENT sourceDesc (biblStruct) >
+            <!ELEMENT biblStruct (monogr) >
+                <!ELEMENT monogr (compiler, position, sourceTitle, imprint, notes) >
+                    <!ELEMENT compiler (#PCDATA) >
+                    <!ELEMENT position (#PCDATA) >
+                    <!ELEMENT sourceTitle (#PCDATA) >
+                    <!ELEMENT imprint (pubPlace, publisher, pubDate) >
+                        <!ELEMENT pubPlace (#PCDATA) >
+                        <!ELEMENT publisher (#PCDATA) >
+                        <!ELEMENT pubDate (#PCDATA) >
+                    <!ELEMENT notes (#PCDATA) >
+                    
+    <!ELEMENT index (doc+) >
+      <!ATTLIST index location CDATA #REQUIRED >
+        <!ELEMENT doc (cd, maintext, datePlace?, signatories?, note?, memorandum?, image)>
+        <!-- The attributes for the text element are included in order to preserve the texts categoristion and pagination within the source material-->
+          <!ATTLIST doc docID ID #REQUIRED >
+          <!ATTLIST doc doctypeID CDATA #REQUIRED>
+          <!ATTLIST doc pg CDATA #REQUIRED >
+          <!-- The decision to make cd a mixed data set is due to the extremly mixed content of the source description paragraphs, preferably a way to force the inclusion of certain elements would be found-->
+            <!ELEMENT cd (#PCDATA|politicalEntity|person|place|date|unknown|document)*>
+                <!ELEMENT document (#PCDATA) >
+                <!ATTLIST document transliteration CDATA #FIXED "true" >
+                <!ELEMENT politicalEntity (#PCDATA|place)* >
+                    <!ATTLIST politicalEntity transliteration CDATA #FIXED "true" >
+                <!ELEMENT person (#PCDATA|rank|title|name|role|politicalEntity|unknown|place)*>
+                   <!-- A unique ID was given to the parent person element to allow for the extraction of their different elements as they are mentioned, eg. 1 person may have may ranks/roles  -->
+                      <!ATTLIST person personID CDATA #REQUIRED >
+                    <!ELEMENT rank (#PCDATA)* >
+                    <!-- All alternative spellings for transliterations are kept within a single altspell attribute, each spelling is capitalised and followed by a comma and a space-->
+                      <!ATTLIST rank transliteration CDATA #FIXED "true">
+                      <!-- All alternative spellings for transliterations are kept within a single altspell attribute, each spelling should be capitalised and followed by a comma and a space-->
+                      <!ATTLIST rank altspell CDATA #IMPLIED >
+                    <!ELEMENT title (#PCDATA)* >
+                      <!ATTLIST title transliteration CDATA #FIXED "true" >
+                      <!ATTLIST title seal CDATA #FIXED "true" >
+                    <!ELEMENT name (#PCDATA)* >
+                      <!-- It was decided to keep sig = signature as an attribute of name in order to be able to group the signature within the 'person' element so that both signature and rank could be extracted-->
+                      <!ATTLIST name sig CDATA #FIXED "true" >
+                      <!ATTLIST name seal CDATA #FIXED "true" >
+                      <!ATTLIST name transliteration CDATA #FIXED "true" >
+                    <!ELEMENT role (#PCDATA|place|rank)* >
+                <!ELEMENT place (#PCDATA)* >
+                  <!ATTLIST place type CDATA #IMPLIED >
+                  <!ATTLIST place transliteration CDATA #IMPLIED >
+                  <!ATTLIST place altspell CDATA #IMPLIED >
+                <!ELEMENT date (#PCDATA|weekday|day|month|year|era|calendar|unknown)* >
+                <!-- The different calendars so far discovered are Hindu, Islamic and Gregorian, more may need to be added later. Gregorian was chosen as the default as it is the calendar that occurs the most throughout the book -->
+                  <!ATTLIST  date calendar (hindu|islamic|gregorian) #REQUIRED>
+                  <!-- The isovalue (International Organization for Standardization date format) is included in order to facilitate an indepth ability to pull out and sort by the date, not #FIXED due to the different calendars    -->
+                  <!ATTLIST date isovalue CDATA #IMPLIED >
+                  <!ATTLIST date ref CDATA #FIXED "true">
+                    <!ELEMENT weekday (#PCDATA) >
+                    <!ELEMENT day (#PCDATA) >
+                    <!ELEMENT month (#PCDATA) >
+                        <!ATTLIST month altspell CDATA #IMPLIED >
+                        <!ATTLIST month transliteration CDATA #FIXED "true" >
+                    <!ELEMENT year (#PCDATA)>
+                    <!ELEMENT era (#PCDATA) >
+                      <!ATTLIST era transliteration CDATA #FIXED "true" >
+                    <!ELEMENT calendar (#PCDATA) >
+                      <!ATTLIST calendar altspell CDATA #IMPLIED>
+                      <!ATTLIST calendar transliteration CDATA #FIXED "true" >
+                <!ELEMENT unknown (#PCDATA) >
+                  <!ATTLIST unknown altspell CDATA #IMPLIED >
+                  <!ATTLIST unknown transliteration CDATA #FIXED "true">
+             <!ELEMENT maintext (contract|prose)>
+                 <!ELEMENT contract (intro?, article+, confirmation?)>
+                 <!-- More elements may need to be addded here in the future if they are discovered in further source encodings -->
+                 <!ELEMENT intro (#PCDATA|date|politicalEntity)* >
+                  <!-- The element date is defined within the cd element -->
+                  <!-- The element politicalEntity is defined within the cd element -->
+                 <!ELEMENT article (#PCDATA|date|politicalEntity|place|practice|object|rank|unknown|person|document)* >
+                   <!ATTLIST article number CDATA #REQUIRED >
+                     <!ELEMENT practice (#PCDATA) >
+                       <!ATTLIST practice transliteration CDATA #FIXED "true" >
+                       <!ATTLIST practice altspell CDATA #IMPLIED >
+                    <!-- The element date is defined within the cd element -->
+                    <!-- The element politicalEntity is defined within the cd element -->
+                    <!-- The element place is defined within the cd element -->
+                    <!-- The element transliteration is defined within the cd element -->
+                     <!ELEMENT object (#PCDATA) >
+                       <!ATTLIST object transliteration CDATA #FIXED "true" >
+                       <!ATTLIST object altspell CDATA #IMPLIED >
+                 <!ELEMENT confirmation (#PCDATA) >
+             <!ELEMENT prose (p+) >
+                 <!ELEMENT p (#PCDATA|politicalEntity|date|place|person|unknown|document|rank)* >
+                     <!-- These elements date are defined above-->
+             <!ELEMENT datePlace (#PCDATA|date|place)*>
+             <!-- These elements date are defined above-->
+             <!ELEMENT signatories (#PCDATA|person|rank|role)*>
+             <!-- These elements are defined above-->
+             <!ELEMENT note (#PCDATA|place|docName|unknown)*>
+                 <!ELEMENT docName (#PCDATA) >
+             <!ELEMENT memorandum (#PCDATA) >
+             <!ELEMENT image EMPTY>
+               <!ATTLIST image src CDATA #REQUIRED>

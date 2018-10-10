@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE source SYSTEM "file://ad.ucl.ac.uk/homed/uczctsd/DesktopSettings/Desktop/XML%20East%20India%20Company/DTD/EastIndiaCompany.dtd">
+<source>
+    <text  index="AHMEDNUGGUR" pages="1-2">
+        <sourceDesc>
+            TRANSLATION of a <doctype ID="2" system="British">Paper</doctype> addressed to <person><rank>CAPTAIN</rank><name ID="1">OUTRAM</name>, <role>Acting Political Agent</role></person>, 
+            <place type="name" lang="hindi" >Mahee Kanta</place>, by <person><rank lang="hindi" altspell1="maharaja">MAHARAJ</rank> <name ID="2" lang="hindi" >PRITHEE SINGJEE KURUMSINGJEE</name></person>.
+        </sourceDesc>
+        <maintext>
+            <contract>
+                <intro>In your letter to me dated <date calendar="gregorian"><day>18</day>th <month>February</month> <year>1836</year></date>, you informed me that it was the intention of the <politicalEntity>British Government</politicalEntity> to restore my Throne and Kingdom to me if I would subscribe to certain Conditions therein enumerated : to these conditions I agree, as follows :-</intro>
+                <article number="1">1. I will abide by the same Agreement that was entered into in <date calendar="gregorian"><year>1812</year></date>* with the <politicalEntity>British Government</politicalEntity>.</article>
+                <article number="2">2. From this time forward neither I, nor my children, nor my posterity, will perform the ceremony of <nonEW lang="hindi" type="custom" altspell1="sati">Suttee.</nonEW></article>
+                <article number="3">3. I will appoint a respectable and active Minister to manage the business of my State, subject to the approval of the <politicalEntity>British Government</politicalEntity>.</article>
+                <article number="4">4. I will pay my <nonEW lang="punjabi" type="object" altspell1="gandasa">Ghansdana</nonEW>, and any balance that may be due to His Highness the <nonEW lang="hindi" type="clan" altspell1="Gaekwad" altspell2="Gaikwad" altspell3="Guicowar">Gaekwar</nonEW> through my <nonEW lang="unknown" type="unknown">Nishadar</nonEW>, <nonEW lang="unknown" type="unknown">Oomedsing </nonEW><place lang="hindi" type="name">Barot</place>, of <nonEW lang="unknown" type="unknown">Puntun</nonEW>, and in future I will continue my <nonEW lang="unknown" type="unknown">Nisha</nonEW> as heretofore.</article>
+                <article number="5">5. The expenses of individuals confined at <place lang="hindi" type="name">Sadra</place> on account of the <nonEW lang="hindi" type="practice" altspell1="sati">Suttee</nonEW> shall be defrayed by me.</article>
+                <article number="6">6. I will retain no Arabs, <nonEW lang="unknown" type="unknown">Muranee</nonEW>s, <nonEW lang="unknown" type="unknown">Purdesee</nonEW>s, or others, whether horse or foot, except those that are old servants of my house.</article>  
+                <article number="7">7. If there should be any quarrel between any of my <nonEW lang="unknown" type="unknown">Thakoor</nonEW>s and any <place type="settlment">village</place>, I will make known the same to the <politicalEntity>Political Agent</politicalEntity>, and as he shall advise so will I do.</article>
+                <article number="8">8.I will not attack the <nonEW lang="unknown" type="unknown">Thakoor</nonEW> of any village without the permission of the <politicalEntity>Political Agent</politicalEntity>.</article>
+                <article number="9">9. My <politicalEntity>Minister</politicalEntity>, <nonEW lang="hindi" type="name">Mahadjee Soobahoot</nonEW> , is guilty in the affair of the <nonEW lang="hindi" type="practice" altspell1="sati">Suttee</nonEW>; I will not give him shelter within my Territory.</article>
+                <confirmation>I will act according to what I have written above.</confirmation>
+            </contract>
+        </maintext>
+        <datePlace>
+            <date calendar="gregorian"><day>18</day>th <month>February</month><year>1836</year></date>
+            <place lang="hindi">Ahmednuggar</place>
+        </datePlace>
+        <signatories>
+            <line>In <rank lang="hindi" type="title" altspell1="maharaja">Maharaj</rank> <name ID="2" lang="hindi">Prithee Singjee</name>’s handwriting.</line>
+            <line>What is written above is correct,</line>
+            <line>&sig; <name ID="3" lang="hindi">TUKHUTSINGJEE</name></line>
+            <line>&trans;</line>
+            <line>&sig; <name ID="1">J. OUTRAM</name></line>
+            <line><role>Acting Political Agent</role></line>
+        </signatories>
+        <note>* Meaning the  <doctype ID="4" system="British">General Engagement</doctype> with the Chiefs of the <place  lang="hindi" >Mahee Kanta</place>, called the “<docName>Security Bond of XVI</docName>. Articles,” entered at pages 304 and 309 of this Compilation.</note>
+        <image src=""/>
+    </text>
+</source>

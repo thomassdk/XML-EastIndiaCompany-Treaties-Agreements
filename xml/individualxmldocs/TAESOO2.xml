@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE source SYSTEM "file://ad.ucl.ac.uk/homed/uczctsd/DesktopSettings/Desktop/XML%20East%20India%20Company/DTD/EastIndiaCompany.dtd">
+<source>
+    <text index="SOONTH – SOUTHERN MURATHA COUNTRY" pages="761">
+        <sourceDesc>Translation of a Note addressed by <person><rank>RANA</rank> <name ID="9">BHIWANNE SINGJEE</name></person>, of <place type="village">Soonth</place>, to <person><name ID="2">A. REMINGTON</name>, <rank>Esquire</rank>, <role>Officiating 1st Assistant Political Commissioner</role></person> for <place type="state" altspell1="Gujarat" altspell2="">Guzerat</place>, dated <date calendar="gregorian"><day>12</day>th <month>May</month> <year>1840</year></date>.</sourceDesc>
+        <maintext>
+            <contract>
+                <article number="1">Having taken into consideration the subject brought to my notice regarding the abolition of <nonEW lang="hindi" type="custom" altspell1="sati">Suttee</nonEW>, I will make arrangements in my territory to prohibit the future observance of <nonEW lang="hindi" type="custom" altspell1="sati">Suttee</nonEW>.</article>
+            </contract>    
+        </maintext>
+        <signatories>
+            <line><seal>Seal of the Rana of Soonth</seal> </line>
+            <line>&trans;</line>
+            <line>&sig; <name ID="2">A. REMINGTON</name>,</line>
+            <line><role>Officiating 1st Assistant Political Commissioner</role>.</line>
+        </signatories>
+        
+        <image src=""/>
+    </text>
+</source>

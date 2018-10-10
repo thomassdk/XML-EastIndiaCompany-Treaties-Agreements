@@ -1,0 +1,9 @@
+The doctypes are sorted into alphabetical order and are given a corresponding number below:
+
+Note 		1
+Paper 		2
+Proclamation	3
+
+The ID is then created using the acronymn from the title TAE (See note on document ID's) followed by DTY (An acronym for "Document TYpe") followed by doctypes corresponding number.
+
+Eg. TAEDTY1 = A "Note" Document Type found in TREATIES, AGREEMENTS, AND ENGAGEMENTS, BETWEEN THE HONORABLE EAST INDIA COMPANY

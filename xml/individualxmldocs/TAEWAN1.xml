@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE source SYSTEM "file://ad.ucl.ac.uk/homed/uczctsd/DesktopSettings/Desktop/XML%20East%20India%20Company/DTD/EastIndiaCompany.dtd">
+<source>
+    <text index="WANKANEER - WARYE - WOW" index2="WAKANEER" pages="891">
+        <sourceDesc>Translation of a <doctype ID="1" system="indian">Note</doctype> addressed by <person><nonEW type="unknown">THAKOOR</nonEW> <name ID="2">SIRDAR SING</name></person>, of <place type="city" altspell1="Wankaner">Wankaneer</place>, to <person><name ID="1">A. REMINGTON</name>, <rank>Esq.</rank>, <role>Officiating 1st Assistant Political Commissioner for <place type="state" altspell1="Gujarat" altspell2="">Guzerat</place></role></person>, dated <date calendar="hindu"><month altspell1="vaisakh">Vysack</month> <nonEW type="unknown">Shood</nonEW> <day>7</day>th <calendar altspell1="samvat">Sumvut</calendar> <year>1896</year></date>, or the <date calendar="gregorian"><day>8</day>th <month>May</month> <year>1840</year></date>.</sourceDesc>
+        <maintext>
+            <contract>
+                <article number="1">Having taken into consideration the subject brought into my notice, regarding the abolition of <nonEW lang="hindi" type="custom" altspell1="sati">Suttee</nonEW>, I will prohibit the practice in my Districts, and make suitable arrangements for its discontinuance.</article>
+            </contract>
+        </maintext>
+        <signatories>
+            <line>&sig; <name ID="2">SIRDAR SING</name>.</line>
+            <line>&trans;</line>
+            <line>&sig; <name ID="1">A. REMINGTON</name></line>
+            <line><role>Officiating 1st Assistant Political Commissioner</role>.</line>
+        </signatories>
+        <image src=""/>
+    </text>
+</source>

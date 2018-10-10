@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE source SYSTEM "file://ad.ucl.ac.uk/homed/uczctsd/DesktopSettings/Desktop/XML%20East%20India%20Company/xml/EastIndiaCompany.dtd">
+
+<?xml-stylesheet type="text/xsl" href="grouping.xsl"?>
+
+<source>
+    
+    <index location="ahmednuggur">
+        
+        <doc docID="TAEAHM1" doctypeID ="TAEDTY2" pg="1-2">
+            <sourceDesc>
+            TRANSLATION of a Paper addressed to <person><rank>CAPTAIN</rank> <name nameID="outram">OUTRAM</name>, <role>Acting Political Agent</role></person>, <place transliteration="true" >Mahee Kanta</place>, by <person><rank transliteration="true" altspell="Maharaja">MAHARAJ</rank> <name nameID="kum" transliteration="true" >PRITHEE SINGJEE KURUMSINGJEE</name></person>.
+                <!--         This date is only for reference to allow sorting during the XSLT transformation. Most documents do have a date in the sourceDesc but this is one is an anomaly, this means there is a repetition of data        -->
+                <date isovalue="18360218" ref="true" calendar="gregorian"><day>18</day>th <month>February</month> <year>1836</year></date>
+            </sourceDesc>
+            <maintext>
+                <contract>
+                    <intro>In your letter to me dated <date isovalue="18360218" calendar="gregorian"><day>18</day>th <month>February</month> <year>1836</year></date>, you informed me that it was the intention of the <politicalEntity>British Government</politicalEntity> to restore my Throne and Kingdom to me if I would subscribe to certain Conditions therein enumerated : to these conditions I agree, as follows :-</intro>
+                    <article number="1">
+                        1. I will abide by the same Agreement that was entered into in <date isovalue="1812" calendar="gregorian"><year>1812</year></date>* with the <politicalEntity>British Government</politicalEntity>.
+                    </article>
+                    <article number="2">
+                        2. From this time forward neither I, nor my children, nor my posterity, will perform the ceremony of <practice transliteration="true" altspell="sati">Suttee</practice>.
+                    </article>
+                    <article number="3">
+                        3. I will appoint a respectable and active Minister to manage the business of my State, subject to the approval of the <politicalEntity>British Government</politicalEntity>.
+                    </article>
+                    <article number="4">
+                        4. I will pay my <object transliteration="true" altspell="gandasa">Ghansdana</object>, and any balance that may be due to <rank>His Highness</rank> the <clan transliteration="true" altspell="Gaekwad, Gaikwad, Guicowar">Gaekwar</clan> through my <unknown transliteration="true" >Nishadar</unknown>, <unknown transliteration="true">Oomedsing </unknown><place transliteration="true" type="village">Barot</place>, of <unknown transliteration="true" >Puntun</unknown>, and in future I will continue my <unknown transliteration="true">Nisha</unknown> as heretofore.
+                    </article>
+                    <article number="5">
+                        5. The expenses of individuals confined at <place transliteration="true" type="village">Sadra</place> on account of the <practice transliteration="true" altspell="sati">Suttee</practice> shall be defrayed by me.
+                    </article>
+                    <article number="6">
+                        6. I will retain no Arabs, <unknown transliteration="true">Muranee</unknown>s, <unknown transliteration="true">Purdesee</unknown>s, or others, whether horse or foot, except those that are old servants of my house.
+                    </article>  
+                    <article number="7">
+                        7. If there should be any quarrel between any of my <unknown transliteration="true">Thakoor</unknown>s and any village, I will make known the same to the <politicalEntity>Political Agent</politicalEntity>, and as he shall advise so will I do.
+                    </article>
+                    <article number="8">
+                        8.I will not attack the <unknown transliteration="true">Thakoor</unknown> of any village without the permission of the <politicalEntity>Political Agent</politicalEntity>.
+                    </article>
+                    <article number="9">
+                        9. My <politicalEntity>Minister</politicalEntity>, <name nameID="sooba" transliteration="true">Mahadjee Soobahoot</name>, is guilty in the affair of the <practice transliteration="true" altspell="sati">Suttee</practice>; I will not give him shelter within my Territory.
+                    </article>
+                    <confirmation>
+                        I will act according to what I have written above.
+                    </confirmation>
+                </contract>
+            </maintext>
+            <datePlace>
+                <date isovalue="18360218" calendar="gregorian"><day>18</day>th <month>February</month> <year>1836</year></date>
+                <place transliteration="true" type="ambig">Ahmednuggar</place>
+            </datePlace>
+            <signatories>
+                In <person><rank transliteration="true" altspell="maharaja">Maharaj</rank> <name nameID="singjee" transliteration="true">Prithee Singjee</name></person>’s handwriting. What is written above is correct,(Signed) <person><name nameID="singgjee" sig="true" transliteration="true">TUKHUTSINGJEE</name></person> (True Translation)(Signed) <person><name nameID="outram" sig="true">J. OUTRAM</name> <role>Acting Political Agent</role></person>
+            </signatories>
+            <note>* Meaning the General Engagement with the Chiefs of the <place transliteration="true" type="ambig">Mahee Kanta</place>, called the “Security Bond of XVI. Articles,” entered at pages 304 and 309 of this Compilation.</note>
+            <image src="TAEAHM1.png"/>
+        </doc>
+    
+    </index>
+    
+    <index location ="soonth">
+        
+        <doc docID ="TAESOO2" doctypeID="TAEDTY1" pg="761">
+            <sourceDesc>
+                Translation of a Note addressed by <person><rank  transliteration="true">RANA</rank> <name nameID="bhi"  transliteration="true">BHIWANNE SINGJEE</name></person>, of <place  transliteration="true" type="village">Soonth</place>, to <person><name nameID="rem">A. REMINGTON</name>, <rank>Esquire</rank>, <role>Officiating 1st Assistant Political Commissioner</role></person> for <place  transliteration="true" type="state" altspell="Gujarat">Guzerat</place>, dated <date isovalue="18400512" calendar="gregorian"><day>12</day>th <month>May</month> <year>1840</year></date>.
+            </sourceDesc>
+            <maintext>
+                <contract>
+                    <article number="1">
+                        Having taken into consideration the subject brought to my notice regarding the abolition of <practice transliteration="true" altspell="sati">Suttee</practice>, I will make arrangements in my territory to prohibit the future observance of <practice transliteration="true" altspell="sati">Suttee</practice>.
+                    </article>
+                </contract>    
+            </maintext>
+            <signatories>
+              <seal>Seal of the Rana of Soonth</seal>(True Translation)(Signed) <person><name nameID="rem" sig="true">A. REMINGTON</name>,<role>Officiating 1st Assistant Political Commissioner</role></person>.
+            </signatories>
+            <image src="TAESOO2.png"/>
+        </doc>
+        
+    </index>
+    
+    <index location="surat">
+        
+        <doc docID="TAESUR21" doctypeID ="TAEDTY3" pg="801">
+            <sourceDesc>
+                PROCLAMATION, BY THE <person><rank>HON’BLE</rank> <name nameID="dunc">JONATHAN DUNCAN</name>, <role>GOVERNOR OF BOMBAY</role></person>. DATED <place  transliteration="true" type="city" >SURAT</place>, THE <date isovalue="18000515" calendar="gregorian"><day>15</day>TH <month>MAY</month> <year>1800</year></date>
+            </sourceDesc>
+            <maintext>
+                <prose>
+                    <p>Whereas by a Treaty concluded between the <politicalEntity>Hon’ble English Company</politicalEntity> and the <person><rank  transliteration="true" altspell="nawab">Nuwab</rank> <rank  transliteration="true">Meer</rank> <name nameID="Nusser"  transliteration="true">Nuseer-ood-Deen Khan</name></person>, under the date the <date isovalue="18000513" calendar="gregorian"><day>13</day>th <month>May</month> <year>1800</year></date>, or the <date calendar="islamic"><day>19</day>th of <month  transliteration="true">Zilhuj</month> <year>1214</year> of the <era  transliteration="true">Hijree</era></date>, the said <rank transliteration="true" altspell="nawab">Nuwab</rank> has agreed that the management and collection of the Revenues of the City of <place transliteration="true" type="city" >Surat</place>, and of the Territories, Places, and other Dependencies thereof, the administration of civil and criminal justice, and generally the entire government of the said City and its Dependencies, hall be vested forever, wholly and exclusively in the <politicalEntity>Hon’ble English Company</politicalEntity>;</p>
+                    <p>This is therefore to give notice to all the inhabitants of the Town of <place transliteration="true" type="city">Surat</place> and its Dependencies, that the <politicalEntity>Hon’ble Company</politicalEntity>’s exclusive Government commences from this day, being <date isovalue="18000515" calendar="gregorian"><weekday>Thursday</weekday>, the <day>15</day>th of <month>May</month> <year>1800</year></date>. Or the <date calendar="islamic"><day>21</day>st of <month transliteration="true">Zilhuj</month> <year>1214</year> of the <era transliteration="true">Hijree</era></date>.  All persons now in civil offices are to continue to act under the administration of the <politicalEntity>Hon’ble Company</politicalEntity> until further orders, and under their future permanency will, of course, in a great measure, depend, under the good pleasure of Government, upon their diligence in their several trusts, and their fidelity to the English <politicalEntity transliteration="true">Sirkar</politicalEntity>.</p>
+                    <p><person><name nameID="gall">Edward Galley</name>, <rank>Esquire</rank>, has been appointed <role>Collector</role> of the <unknown transliteration="true">Mokat</unknown>s and <unknown  transliteration="true">Mogalee</unknown> of the <politicalEntity  transliteration="true">Purgunas</politicalEntity></person>, and <person><name nameID="alex">Alexander Ramsay</name>, <rank>Esquire</rank>, <role>Judge</role> and <role>Magistrate</role> of the city</person>.  The Natives in trust in these <politicalEntity>Departments</politicalEntity> are therefore respectively to continue to act in subordination to those superior <role>Officers</role>, and such appointments or regulations as may take place will be announced in a few days, it being sufficient for the present to intimate to all the Company’s New Subjects of <place  transliteration="true" type="city">Surat</place>, that the motives and object of the <politicalEntity>British Government</politicalEntity> in taking on themselves the full and entire government of <place transliteration="true" type="city">Surat</place>, have been, and are, to procure thereby a just, wise, and efficient administration for the security of the lives and properties, and the promotion of the happiness of all its inhabitants, of which, with God’s blessing, the good effects may soon be rendered manifest.
+                    </p>
+                </prose>
+            </maintext>
+            <datePlace>
+                <date isovalue="18000515" calendar="gregorian"><day>15</day>th <month>May</month> <year>1800</year>.</date>
+                <place transliteration="true" type="castle">Surat Castle</place>
+            </datePlace>
+            <image src="TAESUR21.png"/>    
+        </doc>
+        
+    </index>
+    
+    <index location="wankaneer">
+        
+        <doc docID="TAEWAN1" doctypeID="TAEDTY1"  pg="891">
+            <sourceDesc>
+                Translation of a Note addressed by <person><unknown transliteration="true">THAKOOR</unknown> <name nameID="sing" transliteration="true" >SIRDAR SING</name></person>, of <place transliteration="true" type="city" altspell="Wankaner">Wankaneer</place>, to <person><name nameID="rem">A. REMINGTON</name>, <rank>Esq.</rank>, <role>Officiating 1st Assistant Political Commissioner for <place transliteration="true" type="state" altspell="Gujarat">Guzerat</place></role></person>, dated <date calendar="hindu"><month transliteration="true" altspell="vaisakh">Vysack</month> <unknown transliteration="true">Shood</unknown> <day>7</day>th <calendar transliteration="true" altspell="samvat">Sumvut</calendar> <year>1896</year></date>, or the <date isovalue="1840058" calendar="gregorian"><day>8</day>th <month>May</month> <year>1840</year></date>.
+            </sourceDesc>
+            <maintext>
+                <contract>
+                    <article number="1">
+                        Having taken into consideration the subject brought into my notice, regarding the abolition of <practice transliteration="true" altspell="sati">Suttee</practice>, I will prohibit the practice in my Districts, and make suitable arrangements for its discontinuance.
+                    </article>
+                </contract>
+            </maintext>
+            <signatories>
+                (Signed) <person><name nameID="sing" sig="true" transliteration="true">SIRDAR SING</name></person>.(True Translation)(Signed) <person><name nameID="rem" sig="true">A. REMINGTON</name><role>Officiating 1st Assistant Political Commissioner</role></person>.
+            </signatories>
+            <image src="TAEWAN1.png"/>
+        </doc>
+        
+    </index>
+    
+</source>
